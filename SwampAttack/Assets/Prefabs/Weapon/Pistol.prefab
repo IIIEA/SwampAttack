@@ -47,4 +47,4 @@ MonoBehaviour:
   _price: 0
   _icon: {fileID: 21300000, guid: 5f65a49bd6c77fc49b20de9fefb8a7fa, type: 3}
   _isPurchased: 1
-  Bullet: {fileID: 1665938057867277263, guid: 85934130debced64e9525116a0fa5d50, type: 3}
+  Bullet: {fileID: 635412790309965513, guid: 85934130debced64e9525116a0fa5d50, type: 3}

@@ -1390,33 +1390,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Minotaur - Sprite Sheet_43
-      rect:
-        serializedVersion: 2
-        x: 498
-        y: 1284
-        width: 9
-        height: 6
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b3392031e9e754470800000000000000
-      internalID: 8378241899181544251
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Minotaur - Sprite Sheet_44
       rect:
         serializedVersion: 2
-        x: 503
+        x: 498
         y: 1274
-        width: 68
+        width: 73
         height: 46
       alignment: 7
       pivot: {x: 0.5, y: 0}
