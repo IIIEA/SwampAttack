@@ -10,5 +10,16 @@ public abstract class Weapon : MonoBehaviour
     [SerializeField] private bool _isPurchased = false;
 
     [SerializeField] protected Bullet Bullet;
+
+    public string Label => _label;
+    public int Price => _price;
+    public Sprite Icon => _icon;
+    public bool IsPurchased => _isPurchased;
+
     public abstract void Shoot(Transform shootPoint);
+
+    public void Buy()
+    {
+        _isPurchased = true;
+    }
 }
