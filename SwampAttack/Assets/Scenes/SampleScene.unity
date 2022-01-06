@@ -3066,7 +3066,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Slider: {fileID: 1187751400}
-  _delayBeforeFill: 1
+  _delayBeforeFill: 2
   _spawner: {fileID: 2080359665}
 --- !u!1 &1198470743
 GameObject:
@@ -5387,12 +5387,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _waves:
-  - Template: {fileID: 655167459041703049, guid: 3159d57ea574bd548a1f75d348fc2078, type: 3}
+  - Templates:
+    - {fileID: 2426778609765951231, guid: 9036904cd262eb644bf14463f1c5bbe1, type: 3}
+    - {fileID: 655167459041703049, guid: 3159d57ea574bd548a1f75d348fc2078, type: 3}
     Delay: 1
     Count: 5
-  - Template: {fileID: 655167459041703049, guid: 3159d57ea574bd548a1f75d348fc2078, type: 3}
-    Delay: 0.3
-    Count: 7
+  - Templates:
+    - {fileID: 2426778609765951231, guid: 9036904cd262eb644bf14463f1c5bbe1, type: 3}
+    Delay: 1.5
+    Count: 10
   _spawnPoint: {fileID: 2080359666}
   _player: {fileID: 903756759}
 --- !u!4 &2080359666

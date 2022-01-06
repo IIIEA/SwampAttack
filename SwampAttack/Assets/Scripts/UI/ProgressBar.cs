@@ -8,8 +8,8 @@ public class ProgressBar : Bar
 
     private void OnEnable()
     {
-        Slider.value = Slider.minValue;
         _spawner.EnemyCountChanged += OnValueChanged;
+        Slider.value = Slider.minValue;
     }
 
     private void OnDisable()
