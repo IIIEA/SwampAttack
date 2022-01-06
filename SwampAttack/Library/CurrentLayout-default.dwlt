@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1366
     height: 685
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 89
+  controlID: 71
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 118
+  controlID: 72
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 119
+  controlID: 73
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -399,23 +399,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 96a2ffff
-      m_LastClickedID: -23914
-      m_ExpandedIDs: 96a2ffff3aa8ffff9aa9ffff3eb0ffffb8f0ffffc8f0ffff64fbffff
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 24440000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: NextWeapon
+        m_OriginalName: NextWeapon
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -1354
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -461,9 +461,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 799.9196, y: 377.54547, z: -282.10965}
+    m_Target: {x: 1553.2556, y: 400.7713, z: -425.82178}
     speed: 2
-    m_Value: {x: 799.9196, y: 377.54547, z: -282.10965}
+    m_Value: {x: 1553.2556, y: 400.7713, z: -425.82178}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -514,9 +514,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 509.7032
+    m_Target: 224.07695
     speed: 2
-    m_Value: 509.7032
+    m_Value: 224.07695
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -657,22 +657,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Prefabs
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Asus\Documents\GitHub\SwampAttack\SwampAttack
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 30}
-    m_SelectedIDs: d6450000
-    m_LastClickedID: 17878
-    m_ExpandedIDs: 00000000d6450000d8450000da450000dc450000de45000000ca9a3b
+    scrollPos: {x: 0, y: 82}
+    m_SelectedIDs: d2460000
+    m_LastClickedID: 18130
+    m_ExpandedIDs: 00000000be460000c0460000c2460000c4460000c6460000d2460000d84600007647000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -700,7 +700,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d6450000d8450000da450000dc450000de450000
+    m_ExpandedIDs: 00000000be460000c0460000c2460000c4460000c6460000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -727,8 +727,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c623000024470000464600005aebffff0a580000005a0000124300001a4300001e430000a0470000624700006854ffffd245000000000000084500009e430000e2450000224600002846000024460000
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c623000024470000464600005aebffff0a580000005a0000124300001a4300001e430000a0470000624700006854ffffd245000000000000084500009e430000e24500002246000028460000244600000c460000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1022,7 +1022,7 @@ MonoBehaviour:
     m_CachedPref: -245
     m_ControlHash: 1412526313
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -23914
+  m_LastInspectedObjectInstanceID: 17800
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_LockTracker:
