@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class Pistol : Weapon
 {
-    public override void Shoot(Transform shootPoint)
+    public override IEnumerator Shoot(Transform shootPoint)
     {
-        Instantiate(Bullet, shootPoint.position, Quaternion.identity);   
+        Instantiate(Bullet, shootPoint.position, Quaternion.identity);
+
+        yield return 0;
     }
 }

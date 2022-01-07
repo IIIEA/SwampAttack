@@ -16,7 +16,7 @@ public abstract class Weapon : MonoBehaviour
     public Sprite Icon => _icon;
     public bool IsPurchased => _isPurchased;
 
-    public abstract void Shoot(Transform shootPoint);
+    public abstract IEnumerator Shoot(Transform shootPoint);
 
     public void Buy()
     {

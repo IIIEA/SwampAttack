@@ -32,8 +32,10 @@ public class Player : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            _currentWeapon.Shoot(_shootPoint);
+            StartCoroutine(_currentWeapon.Shoot(_shootPoint));
         }
+
+        StopCoroutine(_currentWeapon.Shoot(_shootPoint));
     }
 
     public void ApplyDamage(int damage)
